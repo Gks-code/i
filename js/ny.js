@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let numerosVendidos = JSON.parse(localStorage.getItem('numerosVendidos')) || [];
 
     // Cria os números de 1 a 101
-    for (let i = 809; i <= 909; i++) {
+    for (let i = 1112; i <= 1212; i++) {
         const numeroElement = document.createElement('div');
         numeroElement.className = numerosVendidos.includes(i) ? 'numero vendido' : 'numero';
         numeroElement.textContent = i;
